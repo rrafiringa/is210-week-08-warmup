@@ -3,7 +3,7 @@
 
 """ Console input """
 
-MYANSWER = raw_input('What is your name? ')
+MY_ANSWER = raw_input('What is your name? ')
 
 if __name__ == '__main__':
-    print MYANSWER
+    print MY_ANSWER
