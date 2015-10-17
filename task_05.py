@@ -6,7 +6,7 @@
 BP = int(raw_input('What is your blood pressure? '))
 
 if BP <= 89:
-   BP_STATUS = 'Low'
+    BP_STATUS = 'Low'
 elif BP >= 90 and BP <= 119:
     BP_STATUS = 'Ideal'
 elif BP >= 120 and BP <= 139:
