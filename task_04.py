@@ -7,6 +7,8 @@ MAX_LENGTH = 80
 LONGSTR = 'short'
 
 # You code goes here
+if len(str(MYINPUT)) > MAX_LENGTH:
+    LONGSTR = LONGSTR.replace('short', 'long')
 
 OUTPUT = 'That certainly was a {} story!'.format(LONGSTR)
 print OUTPUT
